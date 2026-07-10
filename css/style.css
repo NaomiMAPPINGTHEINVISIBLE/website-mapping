@@ -1,0 +1,99 @@
+/* General page styling */
+body {
+    font-family:'Geist Pixel', sans-serif;
+    margin: 0;
+    color: white;
+
+    background:
+        linear-gradient(
+            rgba(11,16,38,0.75),
+            rgba(11,16,38,0.75)
+        ),
+        url("../images/back.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-family:'Geist Pixel', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #8ecfff;
+    font-size: 1.2rem;
+}
+
+/* Navigation bar */
+nav {
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4fc3f7;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: #1b233a;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #4fc3f7;
+}
+
+/* Button */
+button {
+    background-color: #4fc3f7;
+    color: #0b1026;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #82d8ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #bbbbbb;
+}
+
+.active{
+    color:#4fc3f7;
+    border-bottom:2px solid #4fc3f7;
+    padding-bottom:4px;
+}
