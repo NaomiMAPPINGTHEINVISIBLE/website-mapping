@@ -9,8 +9,7 @@ body {
             rgba(11,16,38,0.75),
             rgba(11,16,38,0.75)
         ),
-        url("images/Back.jpg");
-
+    background-image: url("../images/Back.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
